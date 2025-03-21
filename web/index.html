@@ -1,0 +1,63 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			width: 300px;
+			margin: 40px auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		.input-field {
+			margin-bottom: 20px;
+		}
+		.input-field input[type="email"], .input-field input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+		}
+		.input-field input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.input-field input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Login</h2>
+		<form>
+			<div class="input-field">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+			</div>
+			<div class="input-field">
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+			</div>
+			
+			<div class="input-field">
+				<input type="submit" value="Login">
+			</div>
+			<a href="/login.html">Registration</a>
+		</form>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,180 @@
+body{
+    background-color: aliceblue;
+}
+.main {
+  height: 70vw;
+  width: 52vw;
+  justify-self: center;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color:
+ 
+  linear-gradient(blue,orange);
+}
+
+.box1 {
+  height: 25vh;
+  width: 50vw;
+  display: flex;
+}
+
+.img {
+  height: 10vh;
+  width: 10vw;
+}
+
+.name {
+  height: 20vh;
+  width: 50vw;
+}
+
+img {
+  height: 120px;
+  padding: 20px;
+  border-radius: 360%;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.box2 {
+
+  height: 13vh;
+  width: 52vw;
+  display: flex;
+}
+
+.contact {
+
+  width: 46vw;
+}
+
+.contac1 {
+ 
+  width: 46vw;
+}
+
+.email {
+  margin-bottom: 9px;
+  padding-left: 20px;
+
+  color: rgb(8, 8, 8);
+}
+
+.github {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  color: rgb(8, 8, 8);
+}
+.gith{
+  height: 20px;
+  display: flex;
+}
+.phone {
+  margin-bottom: 9px;
+  padding-left: 20px;
+
+  color: rgb(8, 8, 8);
+}
+
+.linkedin {
+  padding-left: 24px;
+  margin-bottom: 20px;
+  color: rgb(8, 8, 8);
+}
+
+a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.box3 {
+  height: 30vh;
+  width: 52vw;
+  display: flex;
+}
+
+.info {
+  height: 80vh;
+  width: 55vw;
+}
+
+.info1 {
+  height: 80vh;
+  width: 46vw;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+
+h4 {
+  margin: 2px;
+  padding-left: 20px;
+}
+
+p {
+  margin: 2px;
+  padding-left: 20px;
+}
+
+.temp {
+  display: flex;
+}
+
+.cgpa {
+  padding-left: 30vh;
+  font-size: medium;
+
+}
+
+.gap {
+  margin-top: 15px;
+}
+
+.skills {
+  display: flex;
+  border-color: gray;
+}
+
+.skbox {
+  border: 2px solid gray;
+  margin-left: 20px;
+  padding: 2px;
+  align-self: center;
+  text-align: center;
+  width: 22vh;
+  border-radius: 6px;
+  background-color: rgb(143, 143, 143);
+  color: white;
+}
+
+.skill2 {
+  display: flex;
+  margin-top: 10px;
+}
+.gap1 {
+  margin-top: 25px;
+}
+.gap2 {
+  margin-top: 35px;
+}
+.presonal {
+  margin-top: 10px;
+}
+.interests {
+  border: 2px solid gray;
+  margin-left: 20px;
+  padding: 2px;
+  align-self: center;
+  text-align: center;
+  width: 22vh;
+  border-radius: 4px;
+}
